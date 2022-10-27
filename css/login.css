@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://assets.nflxext.com/ffe/siteui/vlv3/ac824598-245b-4828-b14f-5cff9074f4d0/21bb26e2-15da-4814-9014-3f4a913250de/BR-pt-20220822-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.cabeçalho {
+    padding: 20px 0 0 40px;
+}
+
+.logo {
+    width: 13%;
+}
+
+.login {
+    width: 22%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    padding: 4%;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+input[type="email"] {
+    padding: 5%;
+    font-size: 16px;
+    width: 101%;
+    box-sizing: border-box;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    color: white;
+}
+
+input[type="password"] {
+    padding: 5%;
+    font-size: 16px;
+    width: 101%;
+    box-sizing: border-box;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+input[type="submit"] {
+    margin-top: 12%;
+    padding: 5%;
+    font-size: 16px;
+    width: 101%;
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+span {
+    position: absolute;
+    font-size: 13px;
+    color: #b3b3b3ad;
+    margin-left: 2px;
+}
+
+.linkajuda {
+    margin-top: 1px;
+    font-size: 13px;
+    color: #b3b3b3ad;
+    text-decoration: none;
+    float: right;
+}
+
+.novoporaqui {
+    font-size: 16px;
+    color: #737373;
+    margin-bottom: 3%;
+}
+
+.linkassineagora {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.protegidarecaptcha {
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+.linksaibamais {
+    font-size: 13px;
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.rodapé {
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 3% 13% 3% 24%;
+}
+
+.duvidas {
+    color: #737373;
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+
+.numeroduvidas {
+    color: #737373;
+}
+
+.perguntasfrequentes {
+    display: inline-block;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.ajuda {
+    display: inline-block;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 2%px;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.termos {
+    display: inline-block;
+    color: #737373;
+    font-size: 13px;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.privacidade {
+    display: inline-block;
+    color: #737373;
+    font-size: 13px;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.cookies {
+    display: inline-block;
+    color: #737373;
+    font-size: 13px;
+    margin-right: 9%;
+    text-decoration: none;
+}
+
+.corporativo {
+    display: inline-block;
+    color: #737373;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.idiomas {
+    margin-top: 5%;
+    width: 15%;
+    height: 48px;
+    background-color: black;
+    color: #737373;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1000px) {
+    .logo {
+        width: 15%;
+    }
+
+    .login {
+        width: 30%;
+    }
+
+    .rodapé {
+        padding: 3% 5% 3% 15%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .idiomas {
+        width: 15%;
+        padding-left: 2%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    }
+
+    .cabeçalho {
+        padding: 4vw 0 0vw 4vw;
+    }
+
+    .logo {
+        width: 22vw;
+    }
+
+    .login {
+        width: 85vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        height: 1vw;
+        padding: 3vw;
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    input[type="submit"] {
+        margin-top: 1%;
+        padding: 2vw;
+        font-size: 3vw;
+        margin-bottom: 0px;
+    }
+
+    input[type="checkbox"] {
+        display: inline-block;
+        width: 2vw;
+        margin-top: 1vw;
+    }
+
+    span,
+    .linkajuda {
+        margin-top: 1vw;
+    }
+
+    span,
+    .linkajuda,
+    .linkassineagora,
+    .protegidarecaptcha,
+    .linksaibamais {
+        font-size: 2vw;
+    }
+
+    .novoporaqui {
+        margin-bottom: 1vw;
+        font-size: 2vw;
+    }
+
+    .linha {
+        width: 100%;
+        height: 1px;
+        background-color: #737373;
+    }
+
+    .duvidas,
+    .numeroduvidas {
+        font-size: 2vw;
+    }
+
+    .perguntasfrequentes,
+    .ajuda,
+    .termos,
+    .privacidade,
+    .cookies,
+    .corporativo {
+        font-size: 2vw;
+    }
+
+    .rodapé {
+        padding: 3% 2% 3% 6%;
+    }
+
+    .cookies {
+        margin-right: 8vw;
+    }
+
+    .idiomas {
+        border: 1px solid #737373;
+        width: 20%;
+        height: 10%;
+        font-size: 2vw;
+        padding: 1vw;
+    }
+}

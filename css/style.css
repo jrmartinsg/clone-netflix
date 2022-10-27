@@ -7,300 +7,217 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://assets.nflxext.com/ffe/siteui/vlv3/ac824598-245b-4828-b14f-5cff9074f4d0/21bb26e2-15da-4814-9014-3f4a913250de/BR-pt-20220822-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
-.cabeçalho {
-    padding: 20px 0 0 40px;
+header {
+    padding: 20px 40px 0 40px;
+
 }
 
 .logo {
-    width: 13%;
-    /* width: 180px; */
+    width: 13.2%;
 }
 
-.login {
-    width: 22%;
-    /* width: 350px; */
-    background-color: rgba(0, 0, 0, 0.7);
-    margin: auto;
-    padding: 4%;
-    /* padding: 60px; */
-    border-radius: 5px;
-}
-
-h1 {
-    color: white;
-    font-size: 32px;
-    margin-bottom: 28px;
-}
-
-input[type="email"] {
-    padding: 5%;
-    font-size: 16px;
-    width: 101%;
-    box-sizing: border-box;
-    background-color: #333;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 5%;
-    color: white;
-}
-
-input[type="password"] {
-    padding: 5%;
-    font-size: 16px;
-    width: 101%;
-    box-sizing: border-box;
-    background-color: #333;
-    border: none;
-    border-radius: 5px;
-    color: white;
-}
-
-input[type="submit"] {
-    margin-top: 12%;
-    padding: 5%;
-    font-size: 16px;
-    width: 101%;
-    background-color: #e50914;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 5%;
-    cursor: pointer;
-}
-
-span {
-    position: absolute;
-    font-size: 13px;
-    color: #b3b3b3ad;
-    margin-left: 2px;
-}
-
-.linkajuda {
-    margin-top: 1px;
-    font-size: 13px;
-    color: #b3b3b3ad;
-    text-decoration: none;
+.botoes-direita {
     float: right;
 }
 
-.novoporaqui {
-    font-size: 16px;
-    color: #737373;
-    margin-bottom: 3%;
+.idioma {
+    display: inline-block;
 }
 
-.linkassineagora {
-    font-size: 16px;
+
+option {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.botoes-idioma {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     color: white;
-    text-decoration: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../img/expandir.png);
+    background-repeat: no-repeat;
+    background-position: calc(95%)center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 2px;
+    margin-right: 30px;
 }
 
-.protegidarecaptcha {
-    color: #8c8c8c;
-    font-size: 13px;
+.botao-entrar {
+    background-color: #F40612;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
-.linksaibamais {
-    font-size: 13px;
-    color: #0071eb;
-    text-decoration: none;
+main {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
 }
 
-.rodapé {
-    background-color: rgb(0, 0, 0, 0.7);
-    padding: 3% 13% 3% 24%;
+.titulo {
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
-.duvidas {
-    color: #737373;
-    font-size: 16px;
-    margin-bottom: 4%;
+.sub-titulo {
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
-.numeroduvidas {
-    color: #737373;
+.texto {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-.perguntasfrequentes {
+.form-email {
     display: inline-block;
-    color: #737373;
-    font-size: 13px;
-    margin-bottom: 2%;
-    margin-right: 10%;
-    text-decoration: none;
+    margin-bottom: 154px;
 }
 
-.ajuda {
-    display: inline-block;
-    color: #737373;
-    font-size: 13px;
-    margin-bottom: 2%px;
-    margin-right: 10%;
-    text-decoration: none;
+.email {
+    width: 500px;
+    padding: 20px 0 20px 10px;
+    color: rgb(88, 88, 88);
+    font-size: 15px;
 }
 
-.termos {
-    display: inline-block;
-    color: #737373;
-    font-size: 13px;
-    margin-right: 10%;
-    text-decoration: none;
-}
-
-.privacidade {
-    display: inline-block;
-    color: #737373;
-    font-size: 13px;
-    margin-right: 10%;
-    text-decoration: none;
-}
-
-.cookies {
-    display: inline-block;
-    color: #737373;
-    font-size: 13px;
-    margin-right: 9%;
-    text-decoration: none;
-}
-
-.corporativo {
-    display: inline-block;
-    color: #737373;
-    font-size: 13px;
-    text-decoration: none;
-}
-
-.idiomas {
-    margin-top: 5%;
-    width: 15%;
-    height: 48px;
-    background-color: black;
-    color: #737373;
-    border-radius: 5px;
+.botao-vamos-lá {
+    background-color: #F40612;
+    padding: 17px 20px 20px 20px;
+    padding-right: 25px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image: url(../img/seta.png);
+    background-repeat: no-repeat;
+    background-position: calc(95%) center;
 }
 
 @media screen and (max-width:1000px) {
     .logo {
-        width: 15%;
-        /* width: 18vw; */
-    }
-
-    .login {
-        width: 30%;
-        /* width: 50vw; */
-    }
-
-    .rodapé {
-        padding: 3% 5% 3% 15%;
-        /* padding: 2vw 3vw 2vw 12vw; */
+        width: 20vw;
     }
 }
 
-@media screen and (max-width:950px) {
-    .idiomas {
-        width: 15%;
-        padding-left: 2%;
+@media screen and (max-width:800px) {
+    .botoes-idioma {
+        font-size: 2vw;
+    }
+
+    .botao-entrar {
+        font-size: 2vw;
+    }
+
+    .titulo {
+        font-size: 5vw;
+    }
+
+    .sub-titulo {
+        font-size: 3vw;
+    }
+
+    .texto {
+        font-size: 2.2vw;
+    }
+
+    .email {
+        width: 55vw;
+        font-size: 2vw;
+    }
+
+    .botao-vamos-lá {
+        font-size: 2.5vw;
+        padding: 18px 20px 20px 20px;
+        padding-right: 25px;
+        background-position: calc(95%) center;
     }
 }
 
-@media screen and (max-width:750px) {
-    body {
-        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-    }
-
-    .cabeçalho {
-        padding: 4vw 0 0vw 4vw;
-    }
-
+@media screen and (max-width:690px) {
     .logo {
-        width: 22vw;
+        width: 30vw;
     }
 
-    .login {
-        width: 85vw;
-        /*width: 70vw;*/
+    .botoes-idioma {
+        font-size: 3vw;
+        padding: 2vw;
+        padding-right: 30px;
+        margin-right: 10px;
     }
 
-    h1 {
+    .botao-entrar {
+        font-size: 3vw;
+        padding: 2vw;
+        border-radius: 0px;
+    }
+
+    .titulo {
+        font-size: 6vw;
+    }
+
+    .sub-titulo {
         font-size: 4vw;
     }
 
-    input[type="email"],
-    input[type="password"] {
-        height: 1vw;
-        padding: 3vw;
-        font-size: 2vw;
-        margin-bottom: 2vw;
+    .texto {
+        font-size: 2.5vw;
     }
 
-    input[type="submit"] {
-        margin-top: 1%;
-        padding: 2vw;
-        font-size: 3vw;
-        margin-bottom: 0px;
+    .form-email {
+        display: block;
+        margin-bottom: 10px;
     }
 
-    input[type="checkbox"] {
-        display: inline-block;
-        width: 2vw;
-        margin-top: 1vw;
+    .email {
+        font-size: 2.5vw;
+        padding: 3vw 2vw;
     }
 
-    span,
-    .linkajuda {
-        margin-top: 1vw;
+    .botao-vamos-lá {
+        font-size: 4vw;
+        padding: 2vw 3vw;
+        padding-right: 30px;
+        margin-bottom: 170px;
+        border-radius: 0;
+        background-position: calc(95%) calc(54%);
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    header,
+    main {
+        padding: 20px;
     }
 
-    span,
-    .linkajuda,
-    .linkassineagora,
-    .protegidarecaptcha,
-    .linksaibamais {
-        font-size: 2vw;
+    .texto {
+        font-size: 3.5vw;
     }
 
-    .novoporaqui {
-        margin-bottom: 1vw;
-        font-size: 2vw;
+    .email {
+        width: 70vw;
+        font-size: 4vw;
+        padding: 3vw 2vw;
     }
 
-    .linha {
-        width: 100%;
-        height: 1px;
-        background-color: #737373;
-    }
-
-    .duvidas,
-    .numeroduvidas {
-        font-size: 2vw;
-    }
-
-    .perguntasfrequentes,
-    .ajuda,
-    .termos,
-    .privacidade,
-    .cookies,
-    .corporativo {
-        font-size: 2vw;
-    }
-
-    .rodapé {
-        padding: 3% 2% 3% 6%;
-    }
-
-    .cookies {
-        margin-right: 8vw;
-    }
-
-    .idiomas {
-        border: 1px solid #737373;
-        width: 20%;
-        height: 10%;
-        font-size: 2vw;
-        padding: 1vw;
+    .botao-vamos-lá {
+        font-size: 5vw;
+        padding: 4vw;
+        padding-right: 25px;
+        background-position: calc(95%) center;
+        border-radius: 2px;
     }
 }
