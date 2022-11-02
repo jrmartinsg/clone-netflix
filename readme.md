@@ -1,5 +1,5 @@
 <h1>
-    Clone Netflix - <a href="https://jrmartinsg.github.io/clone-netflix/" target="_blank">Clique e veja o Projeto
+    Clone Netflix - <a href="https://clone-netflix-jrmartinsg.vercel.app/" target="_blank">Clique e veja o Projeto
         Online</a>
 </h1>
 <p>
@@ -28,5 +28,5 @@
 <h4>
     Obrigado pela visualização do meu projeto. <br>
     Estou sempre disposto a sugestões de melhorias!! <br><br>
-    <a href="https://jrmartinsg.github.io/clone-netflix/" target="_blank">Clique e veja o Projeto Online</a>
+    <a href="https://clone-netflix-jrmartinsg.vercel.app/" target="_blank">Clique e veja o Projeto Online</a>
 </h4>
